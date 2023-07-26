@@ -7,7 +7,6 @@ import java.nio.charset.StandardCharsets;
 public class ProtocolWriter {
 
     private final OutputStream out;
-    private ProtocolWriter protocolWriter;
 
     public ProtocolWriter(OutputStream out) {
         this.out = out;
